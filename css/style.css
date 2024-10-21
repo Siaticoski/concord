@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color: #5EECF5;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.quadrado{
+    background: linear-gradient(to left, #5EECF5, #024751);
+    width: 600px;
+    height: 600px;
+    transform: rotate(-110deg);
+    border-radius: 130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+p{
+font-size: xx-large;
+}
+
+#login{
+    color: white;
+    transform: rotate(110deg);
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+#ajuste{
+    transform: rotate(110deg);
+}
