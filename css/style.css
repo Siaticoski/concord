@@ -37,6 +37,7 @@ p{
 font-size: xx-large;
 }
 
+/*
 #login{
     color: white;
     transform: rotate(110deg);
@@ -45,7 +46,16 @@ font-size: xx-large;
     height: 100px;
     margin-left: 50px;
 }
+*/
 
 #ajuste{
     transform: rotate(110deg);
+    background-color: #024751;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    margin-top: 170px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
 }
