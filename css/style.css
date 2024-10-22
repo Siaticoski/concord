@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body{
     background-color: black;
 }
@@ -5,6 +11,7 @@ body{
 main{
     display: flex;
     justify-content: center;
+
 }
 
 span{
@@ -34,7 +41,7 @@ h2{
 }
 
 p{
-font-size: xx-large;
+    font-size: xx-large;
 }
 
 /*
@@ -58,4 +65,27 @@ font-size: xx-large;
     flex-wrap: wrap;
     flex-direction: column;
 
+}
+
+#logo{
+    width: 100px;
+}
+
+#concord{
+    font-size: 25px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#pequeno{
+    font-size: small;
+    color: white;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
 }
