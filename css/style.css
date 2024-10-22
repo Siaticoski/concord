@@ -67,10 +67,6 @@ p{
 
 }
 
-#logo{
-    width: 100px;
-}
-
 #concord{
     font-size: 25px;
     margin-top: 1%;
@@ -80,12 +76,40 @@ p{
     font-weight: bold;
 }
 
-#pequeno{
-    font-size: small;
-    color: white;
-}
 
 input{
     height: 30px;
     border-radius: 10px;
+}
+
+#chat{
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+}
+
+span{
+    color:#5EECF5;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 2%;
+}
+
+.dConcord{
+    text-align: right;
+    flex: 1;
+}
+
+.dImg{
+    flex: 1;
+}
+header{
+    display: flex;
+    justify-content: center;
 }
