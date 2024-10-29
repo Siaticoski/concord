@@ -5,13 +5,30 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.884);
 }
 
 main{
     display: flex;
     justify-content: center;
+}
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#teste{
+    display: flex;
+    justify-content: center;
+}
+
+#fundo{
+    background-color: black;
+    width: 800px;
+    height: 750px;
+    margin-top: 4%;
+    border-radius: 100px;
 }
 
 span{
@@ -30,41 +47,19 @@ h2{
 
 .quadrado{
     background: linear-gradient(to left, #5EECF5, #024751);
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     transform: rotate(-110deg);
     border-radius: 130px;
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    margin-left: 10%;
 
 }
 
 p{
     font-size: xx-large;
-}
-
-/*
-#login{
-    color: white;
-    transform: rotate(110deg);
-    background-color: blueviolet;
-    width: 300px;
-    height: 100px;
-    margin-left: 50px;
-}
-*/
-
-#ajuste{
-    transform: rotate(110deg);
-    background-color: #024751;
-    height: 200px;
-    width: 200px;
-    align-items: center;
-    margin-top: 170px;
-    flex-wrap: wrap;
-    flex-direction: column;
-
 }
 
 #concord{
@@ -76,19 +71,13 @@ p{
     font-weight: bold;
 }
 
-
-input{
-    height: 30px;
-    border-radius: 10px;
-}
-
 #chat{
     color: white;
 }
 
 h1{
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     font-family: Arial, sans-serif;
 }
 
@@ -109,7 +98,32 @@ span{
 .dImg{
     flex: 1;
 }
-header{
+
+/*--------------- login --------------*/
+input{
+    height: 35px;
+    border-radius: 10px;
+    width: 290px;
+}
+
+#ajuste{
+    transform: rotate(110deg);
+    background-color: #024751;
+    height: 60%;
+    width: 60%;
+    align-items: center;
+    margin-top: 110px;
+    flex-wrap: wrap;
+    flex-direction: column;
     display: flex;
     justify-content: center;
+}
+
+label{
+    text-align: center;
+}
+
+.tam{
+    width: 60px;
+    height: 50px;
 }
