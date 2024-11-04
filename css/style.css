@@ -45,6 +45,10 @@ h2{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 .quadrado{
     background: linear-gradient(to left, #5EECF5, #024751);
     width: 500px;
@@ -98,7 +102,6 @@ span{
 .dImg{
     flex: 1;
 }
-
 /*--------------- login --------------*/
 input{
     height: 35px;
@@ -108,7 +111,7 @@ input{
 
 #ajuste{
     transform: rotate(110deg);
-    background-color: #024751;
+    /*background-color: #024751;*/
     height: 60%;
     width: 60%;
     align-items: center;
@@ -119,6 +122,9 @@ input{
     justify-content: center;
 }
 
+
+
+
 label{
     text-align: center;
 }
@@ -126,4 +132,44 @@ label{
 .tam{
     width: 60px;
     height: 50px;
+}
+
+.a{
+    color: white;
+    font-size: 18px;
+}
+.a:hover{
+    text-align: center;
+    color: #5EECF5;
+    box-shadow: 0 0 1px 1px #5EECF5 inset;
+}
+
+
+.entrar{
+    width: 90px;
+    height: 35px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2 ease;
+    font-size: 18px;
+    margin-left: 32%;
+    margin-top: 50px;
+}
+.entrar:hover{
+    transform: translateY(-4px);
+}
+#E{
+    color: black;
+}
+
+
+
+
+
+
+
+.cadastro{
+    transform: rotate(110deg);
+    bottom: 0;
 }
