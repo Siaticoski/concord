@@ -152,6 +152,8 @@ textarea{
     border-radius: 60px;
     margin-top: 20px;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 .favorito:hover{
     transform: translateY(-4px);
@@ -163,6 +165,8 @@ textarea{
     border-radius: 60px;
     margin-top: 20px;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 .bloqueados:hover{
     transform: translateY(-4px);
@@ -175,6 +179,8 @@ textarea{
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 .denuncia:hover{
     transform: translateY(-4px);
