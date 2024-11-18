@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    background: linear-gradient(to bottom, #5EECF5, #024751);
+    border-start-end-radius: 100px;
+    border-start-start-radius: 100px;
+    width: 900px;
+    text-align: start;
+}
+
+
+#alinhar{
+    display: flex;
+    justify-content: center;
+}
+
+#fundo{
+    background-color: black;
+    width: 900px;
+    height: 800px;
+    margin-top: 4%;
+    border-radius: 100px;
+    border-start-start-radius: 80px;
+    border-start-end-radius: 80px;
+}
+
+
+/*---------------------------------------------*/
+#chat{
+    color: white;
+    text-align: end;
+    font-size: smaller;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+span{
+    color:#5EECF5;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 2%;
+}
+
+.dConcord{
+    text-align: right;
+    flex: 1;
+}
+
+.dImg{
+    flex: 1;
+}
+
+#logo{
+    width: 50px;
+    margin-left: 20px;
+}
+/*-----------------------------------------------*/
