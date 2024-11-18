@@ -81,10 +81,13 @@ span{
     height: 50px;
 }
 
-#vol{
+.vol{
     width: 50px;
     height: 50px;
     margin-left: 50px;
+}
+.vol:hover{
+    transform: translateX(-6px);
 }
 
 /*--------------------------------*/
@@ -123,7 +126,7 @@ span{
 }
 
 textarea{
-    width: 798px;
+    width: 800px;
     height: 300px;
     background-color: black;
     color: white;
@@ -141,46 +144,52 @@ textarea{
     justify-content: end;
     border-end-start-radius: 50px;
     border-end-end-radius: 50px;
-}
-
-.link{
-    width: 60px;
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 10px;
+    align-items: center;
 }
 
 .favorito{
-    width: 60px;
+    width: 65px;
     background: linear-gradient(to bottom, #5EECF5, #024751);
-    border-radius: 70px;
+    border-radius: 60px;
     margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 .favorito:hover{
     transform: translateY(-4px);
 }
 
 .bloqueados{
-    width: 60px;
+    width: 65px;
     background: linear-gradient(to bottom, #5EECF5, #024751);
     border-radius: 60px;
     margin-top: 20px;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 .bloqueados:hover{
     transform: translateY(-4px);
 }
 
 .denuncia{
-    width: 60px;
+    width: 65px;
     background: #450000;
     border-radius: 60px;
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 .denuncia:hover{
     transform: translateY(-4px);
 }
+
+.imagem{
+    width:65px;
+}
+
 
 /*----------------------------------------*/
