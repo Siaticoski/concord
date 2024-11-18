@@ -10,11 +10,9 @@ body{
 
 header{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     background: linear-gradient(to bottom, #5EECF5, #024751);
-    border-start-end-radius: 100px;
-    border-start-start-radius: 100px;
-    width: 900px;
+    width: 800px;
     text-align: start;
 }
 
@@ -26,16 +24,15 @@ header{
 
 #fundo{
     background-color: black;
-    width: 900px;
+    width: 800px;
     height: 800px;
     margin-top: 4%;
-    border-radius: 100px;
-    border-start-start-radius: 80px;
-    border-start-end-radius: 80px;
+    border-end-end-radius: 100px;
+    border-end-start-radius: 100px;
 }
 
 
-/*---------------------------------------------*/
+/*-------------------- header ----------------------*/
 #chat{
     color: white;
     text-align: end;
@@ -54,7 +51,7 @@ span{
 
 .titulo{
     display: flex;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 .dConcord{
@@ -70,4 +67,55 @@ span{
     width: 50px;
     margin-left: 20px;
 }
+
+
+
+#pes_ini{
+    background: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 350px;
+    border-end-start-radius: 80px;
+}
+input{
+    font-size: x-large;
+    width: 280px;
+    border-bottom: 1px solid black;
+    background: white;
+}
+#luneta{
+    width: 35px;
+    height: 35px;
+}
 /*-----------------------------------------------*/
+
+/*----------------------- filtro ---------------------*/
+
+#filtros{
+    background-color: #5C5C5C;
+    width: 100%;
+    height: 40%;
+    margin-top: 5%;
+    border-end-start-radius: 60px;
+}
+
+
+#pes_fil{
+    background: white;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    height: 40px;
+    border-end-end-radius: 50px;
+}
+#fil{
+    width: 140px;
+    background:white;
+    height: 30px;
+    font-size: medium;
+}
+#img_fil{
+    width: 40px;
+}
+/*----------------------------------------------------*/
