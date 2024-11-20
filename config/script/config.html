@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concord</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <div class="dImg">
+                <img src="img/Rectangle 15.png" alt="logo">
+            </div>
+            <div class="dConcord">
+                <h1>Con<span>cord</span></h1>
+                <p>Chat online</p>
+            </div>
+        </div>
+
+        <div class="dVoltar">
+            <a href="COLOCAR O LINK AQUI"> <img id="img2" src="img/Vector.png" alt="voltar"></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="parteVisivel">
+            <div class="Gbotoes"><a href="/conta/index.html">Conta</a></div>
+            <div ><img src="img/Male User.png"><p >Nome do usuário</p></div>
+            <div class="Gbotoes"><img src="img/Padlock Outline.png"><button class="botao">Privacidade</button></div>
+            <div class="Gbotoes"><img src="img/Bell.png"><button class="botao">Notificações</button></div>
+        </section>
+
+        <section id="parteSumivel">
+            <div class="divSu" style="display:none;">
+                <div>
+                    <h1>Privacidade</h1>
+                </div>
+            <div id="divisao2"> 
+                <button class="button" style="vertical-align:middle"><span>Visto por último e online </span></button>
+                <button class="button" style="vertical-align:middle"><span>Bloqueados </span></button>
+                <button class="button" style="vertical-align:middle"><span>Recado </span></button>
+            </div>
+                <section id="parteSumivel2">
+                    <div class="divSu2" style="display:none;" id="vistoPor">
+                        
+                    </div>
+
+
+                    <div class="divSu2" style="display:none;" id="bloqueados">
+                    <div><p>Bloqueados</p></div>
+
+                    <div>
+                        <form action="/submit" method="post">
+                            <input type="text" id="nome" name="nome" placeholder="ID/NOME" required><br><br>
+                            <input type="submit" class="bBotao" value="">
+                        </form>
+                    </div>
+                    <button onclick="addBloqueado()"></button>
+                        <section class="contatosBloqueados">
+
+                        </section>
+
+
+                    </div>
+
+
+                    <div class="divSu2" style="display:none;" id="recado">
+                        <section>
+                            <fieldset>
+                                <legend>Quem pode ver meu "visto por ultimo"</legend>
+                                <div>
+                                    <input type="radio" id="opcao1" name="opcao" value="1">
+                                    <label for="opcao1">Todos</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="opcao2" name="opcao" value="2">
+                                    <label for="opcao2">Meus contatos</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="opcao3" name="opcao" value="3">
+                                    <label for="opcao3">Ninguém</label>
+                                </div>
+                            </fieldset>
+                        </form>
+                        </section>
+                        <section id="s2">
+                            <fieldset>
+                                <legend>Quem pode ver quando estou online</legend>
+                                <div>
+                                    <input type="radio" id="opcao1" name="opcao" value="1">
+                                    <label for="opcao1">Todos</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="opcao2" name="opcao" value="2">
+                                    <label for="opcao2">Mesmo que "Visto por ultimo"</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="opcao3" name="opcao" value="3">
+                                    <label for="opcao3">Ninguém</label>
+                                </div>
+                            </fieldset>
+                        </form>
+                        </section>
+
+
+
+                    </div>
+                </section>
+            </div>
+
+            <div class="divSu" style="display:none;" id="notificação">
+                <section>
+                    <p>Notificações</p>
+                    <div class="escuro">
+                        <p>Ativar notificações</p>
+                        <div class="switch__container">
+                            <input id="switch" class="switch" type="checkbox" />
+                            <label for="switch"></label>
+                          </div>
+                    </div>
+
+                    <div class="escuro">
+                        <p>Mensagens</p>
+                        <p>Sons de notificação</p>
+                        <div class="switch__container">
+                            <input id="switch" class="switch" type="checkbox" />
+                            <label for="switch"></label>
+                        </div>
+                        <p>Vibração</p>
+                        <div class="switch__container">
+                            <input id="switch" class="switch" type="checkbox" />
+                            <label for="switch"></label>
+                        </div>
+                    </div>     
+
+                    <div class="escuro">
+                        <p>Grupos</p>
+                        <p>Sons de notificação</p>
+                        <div class="switch__container">
+                            <input id="switch" class="switch" type="checkbox" />
+                            <label for="switch"></label>
+                        </div>
+                        <p>Vibração</p>
+                        <div class="switch__container">
+                            <input id="switch" class="switch" type="checkbox" />
+                            <label for="switch"></label>
+                        </div>
+                    </div>   
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

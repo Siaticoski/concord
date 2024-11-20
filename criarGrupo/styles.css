@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: 20%;
+}
+
+span{
+    color:black;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dConcord{
+    text-align: right;
+    flex: 1;
+
+}
+
+.dImg{
+    flex: 1;
+}
+img{
+    width: 70px;
+}
+header{
+    background: linear-gradient(to bottom, #5EECF5, #002244);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content:left;
+    position: absolute;
+    top: 0px;
+}
+#img2{
+    width: 50px;
+}
+
+.dVoltar{
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #505050;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.groupName {
+    position: relative;
+    top: 25%;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.container input[type="text"] {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    padding: 8px;
+    background-color: #444;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+.container .create-button {
+    display: block;
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    width: 10%;
+    padding: 10px;
+    background-color: #555;
+    color: #ccc;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container .create-button:hover {
+    background-color: #979595;
+}
+.description{
+    position: absolute;
+    top: 45%;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.h1{
+    position: absolute;
+    top: 10%;
+    left: 39%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.volta{
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    width: 35px;
+}

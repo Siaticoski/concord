@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concord</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <div class="dImg">
+                <img src="img/Rectangle 15.png" alt="logo">
+            </div>
+            <div class="dConcord">
+                <h1>Con<span>cord</span></h1>
+                <p>Chat online</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="dFundo">
+            <section>
+                    <form action="/submit" method="post"> 
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required><br><br>
+                    
+                        <label for="senha">Senha:</label><br>
+                        <input type="senha" id="senha" name="senha" required><br><br>
+        
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                    
+                        <label for="celular">Celular:</label><br>
+                        <input type="celular" id="celular" name="celular" required><br><br>
+                    
+                        <input type="submit" class="botao" value="Entrar">
+                    </form>
+        
+                <div class="dVoltar">
+                    <p>Você já possui conta? <a href="/login/index.html">Fazer login</a></p>
+                </div>
+    
+            </section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+
+span{
+    color:black;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dConcord{
+    text-align: right;
+    flex: 1;
+}
+
+.dImg{
+    flex: 1;
+}
+img{
+    width: 70px;
+}
+header{
+    background: linear-gradient(to bottom, #5EECF5, #002244);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content:left;
+}
+#img2{
+    width: 50px;
+}
+
+.dVoltar{
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.apagar{
+    color: #b81313;
+   font-size: 30px;
+   position: absolute;
+   left: 0%;
+}
+body{
+    background-color: black;
+}
+.meio{
+    display: flex;
+    justify-content: center;
+}
+.img5{
+    width: 30px;
+    height: 30px;
+}
+.taindo{
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    left: 10%;
+}
+body{
+    background-color: black;
+}

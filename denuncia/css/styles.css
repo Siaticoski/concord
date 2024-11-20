@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+}
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+span{
+    color:black;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.dConcord{
+    text-align: right;
+    flex: 1;
+}
+
+.dImg{
+    flex: 1;
+}
+img{
+    width: 70px;
+}
+header{
+    background: linear-gradient(to bottom, #5EECF5, #002244);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content:left;
+}
+#img2{
+    width: 50px;
+}
+
+.dVoltar{
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+body{
+    background-color: #505050;
+}
+.container {
+    margin-top: 150px;
+    width: 300px;
+    height: 500px;
+    background-color: #8f8d8d;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.dialog label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 50%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cancel {
+    color: #ffffff;
+    background-color: #000000;
+    position: absolute;
+    bottom: 26%;
+    left: 42%;
+}
+
+.report {
+    color: #ffffff;
+    background-color: #d9534f;
+    position: absolute;
+    bottom: 26%;
+    left: 53%;
+}
+.block{
+    margin: 0;
+    font-size: 25px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+img{
+    width: 8%;
+}
