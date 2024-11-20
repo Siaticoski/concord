@@ -5,16 +5,14 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: black;
 }
 
 header{
     display: flex;
     justify-content: start;
     background: linear-gradient(to bottom, #5EECF5, #024751);
-    border-start-end-radius: 100px;
-    border-start-start-radius: 100px;
-    width: 800px;
+    width: 100%;
     text-align: start;
 }
 
@@ -26,12 +24,8 @@ header{
 
 #fundo{
     background-color: black;
-    width: 800px;
-    height: 800px;
-    margin-top: 4%;
-    border-radius: 100px;
-    border-start-start-radius: 80px;
-    border-start-end-radius: 80px;
+    width: 100%;
+    height: 970px;
 }
 
 
@@ -41,12 +35,12 @@ header{
 #chat{
     color: white;
     text-align: end;
-    font-size: smaller;
+    font-size: medium;
 }
 
 h1{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, sans-serif;
 }
 
@@ -56,7 +50,8 @@ span{
 
 .titulo{
     display: flex;
-    margin-top: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .dConcord{
@@ -69,7 +64,7 @@ span{
 }
 
 #logo{
-    width: 50px;
+    width: 80px;
     margin-left: 20px;
 }
 /*-----------------------------------------------*/
@@ -78,13 +73,13 @@ span{
 
 #voltar{
     border-bottom: 1px gray solid;
-    height: 50px;
+    height: 70px;
 }
 
 .vol{
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
+    width: 70px;
+    height: 70px;
+    margin-left: 60px;
 }
 .vol:hover{
     transform: translateX(-6px);
@@ -98,13 +93,14 @@ span{
     display: flex;
     justify-content: space-around;
     font-size: xx-large;
-    height: 250px;
+    height: 300px;
     border-bottom: 1px white solid;
+
 }
 
 #per{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-top: 25px;
 }
 
@@ -112,9 +108,10 @@ span{
     margin-top: 30px;
     color: white;
     border-bottom: 1px white solid;
-    height: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 40px;
 }
 
 /*-----------------------------*/
@@ -126,12 +123,12 @@ span{
 }
 
 textarea{
-    width: 800px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     background-color: black;
     color: white;
     resize: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /*--------------------------------------*/
@@ -145,10 +142,12 @@ textarea{
     border-end-start-radius: 50px;
     border-end-end-radius: 50px;
     align-items: center;
+    margin-top: 100px;
+    margin-right: 50px;
 }
 
 .favorito{
-    width: 65px;
+    width: 80px;
     background: linear-gradient(to bottom, #5EECF5, #024751);
     border-radius: 60px;
     margin-top: 20px;
@@ -161,7 +160,7 @@ textarea{
 }
 
 .bloqueados{
-    width: 65px;
+    width: 80px;
     background: linear-gradient(to bottom, #5EECF5, #024751);
     border-radius: 60px;
     margin-top: 20px;
@@ -174,7 +173,7 @@ textarea{
 }
 
 .denuncia{
-    width: 65px;
+    width: 80px;
     background: #450000;
     border-radius: 60px;
     margin-top: 20px;
@@ -188,7 +187,7 @@ textarea{
 }
 
 .imagem{
-    width:65px;
+    width: 80px;
 }
 
 /*----------------------------------------*/

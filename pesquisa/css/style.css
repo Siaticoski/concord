@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: black;
 }
 
 header{
@@ -27,11 +27,6 @@ header{
     background-color: black;
     width: 100%;
     height: 950px;
-
-    /*
-    border-end-end-radius: 100px;
-    border-end-start-radius: 100px;
-    */
     
 }
 
@@ -40,12 +35,12 @@ header{
 #chat{
     color: white;
     text-align: end;
-    font-size: smaller;
+    font-size: medium;
 }
 
 h1{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, sans-serif;
 }
 
@@ -55,7 +50,8 @@ span{
 
 .titulo{
     display: flex;
-    margin-top: 1.5%;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .dConcord{
@@ -68,8 +64,8 @@ span{
 }
 
 #logo{
-    width: 50px;
-    margin-left: 20px;
+    width: 70px;
+    margin-left: 50px;
 }
 
 
@@ -79,18 +75,19 @@ span{
     display: flex;
     justify-content: center;
     height: 50px;
-    width: 350px;
+    width: 400px;
     border-end-start-radius: 80px;
 }
 input{
     font-size: x-large;
-    width: 280px;
+    width: 330px;
     border-bottom: 1px solid black;
     background: white;
+    margin-top: 5px;
 }
 #luneta{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
 /*-----------------------------------------------*/
 
@@ -100,7 +97,7 @@ input{
     background-color: #5C5C5C;
     width: 100%;
     height: 40%;
-    margin-top: 5%;
+    margin-top: 2%;
     border-end-start-radius: 60px;
     display: flex;
     justify-content: space-between;
@@ -109,17 +106,18 @@ input{
 
 #pes_fil{
     background: white;
-    width: 200px;
+    width: 400px;
     display: flex;
     justify-content: start;
     height: 40px;
     border-end-end-radius: 50px;
 }
 #fil{
-    width: 140px;
+    width: 300px;
     background:white;
     height: 30px;
-    font-size: medium;
+    font-size: 20px;
+    margin-top: 2px;
 }
 #img_fil{
     width: 40px;
@@ -128,10 +126,10 @@ input{
 /*------------------------contatos---------------------*/
 
 .contato{
-    width: 300px; /* Largura da caixa */
-    height: 300px; /* Altura da caixa */
+    width: 400px; /* Largura da caixa */
+    height: 350px; /* Altura da caixa */
     overflow-y: scroll; /* Adiciona a barra de rolagem vertical */
-    border: 1px solid #024751; /* Borda da caixa */
+    border: 1px solid #191b1b; /* Borda da caixa */
     padding: 10px; /* Espaçamento interno */
     margin-left: 5%;
     margin-top: 3%;
@@ -145,13 +143,13 @@ input{
 }
 
 .boneco{
-    width: 50px;
-    height: 40px;
+    width: 60px;
+    height: 50px;
 }
 .usuario{
-    width: 200px;
-    height: 45px;
-    font-size: 30px;
+    width: 280px;
+    height: 55px;
+    font-size: 35px;
     background: #848484;
     color: white;
     border-radius: 50px;
@@ -160,10 +158,10 @@ input{
 /*-----------------------------------------------------*/
 
 .scroll-container {
-    width: 400px; /* Largura da caixa */
-    height: 250px; /* Altura da caixa */
+    width: 450px; /* Largura da caixa */
+    height: 350px; /* Altura da caixa */
     overflow-y: scroll; /* Adiciona a barra de rolagem vertical */
-    border: 1px solid none; /* Borda da caixa */
+    border: 1px solid #ACACAC; /* Borda da caixa */
     padding: 10px; /* Espaçamento interno */
 }
 
@@ -171,13 +169,13 @@ input{
     margin: 10px 0;
     border-radius: 50px;
     background: #ACACAC;
-    width: 150px;
-    height: 40px;
-    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
 }
 .opçao{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-left: 8px;
     margin-top: 9px;
 }
